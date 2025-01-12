@@ -35,7 +35,7 @@
     height: 813px;
     width: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
-                url('/Media/asset\ 13.jpeg') no-repeat center center/cover;
+                url('./Media/asset\ 13.jpeg') no-repeat center center/cover;
     background-size: cover;
 }
 
@@ -583,7 +583,7 @@ main {
   .related-section {
     height: 60vh;
     position: relative;
-    background-image: url("/Media/YogaPic.jpeg");
+    background-image: url("./Media/YogaPic.jpeg");
     background-size: cover;
     background-position: center;
     align-items: center;
