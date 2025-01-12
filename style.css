@@ -1,0 +1,860 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.navbar {
+    gap: 87rem;
+    background-color: transparent;
+    flex-wrap: wrap;
+} 
+
+.logo {
+    height: 42px;
+    width: auto;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.img01 {
+    height: 35px;
+    padding-top: 25px;
+}
+
+.top-section {
+    height: 813px;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+                url('/Media/asset\ 13.jpeg') no-repeat center center/cover;
+    background-size: cover;
+}
+
+.search {
+    height: 90px;
+    width: auto;
+    background-color: transparent;
+    text-align: center;
+    gap: 0.7rem;
+}
+
+.search-img {
+    margin-left: 1rem;
+    align-self: center;
+}
+
+.img0 {
+    height: 25px;
+    width: auto;
+}
+
+.search-text {
+    height: auto;
+    font-size: 22px;
+    font-weight: 500;
+    align-self: center;
+}
+
+.text {
+    color: #0e0e0e;
+}
+
+:hover.search-text {
+    scale: 1.07;
+}
+
+:hover.search-img {
+    scale: 1.07;
+}
+
+.resolutions {
+    margin-top: 10rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.8rem;
+}
+
+
+.reso {
+    font-size: 5rem;
+    line-height: 4rem;
+}
+
+.reso-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    align-self: center;
+    width: 100%;
+    max-width: 550px;
+}
+
+
+/* BEFORE YOU CHOOSE  */
+
+main {
+    background-color: #f3f4f4;
+    padding: 1rem;
+}
+
+.beforeYouChoose {
+    padding-top: 6rem;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodText-area {
+    width: 100%;
+    max-width: 672px;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Guide {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.movingForward {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.movingForward02 {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.food-img {
+    width: 100%;
+    max-width: 624px;
+    height: auto;
+}
+
+/* ROBERT SECTION */
+
+
+.robert-area {
+    margin-top: 8rem;
+    gap: 3.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.robert-text-section {
+    width: 100%;
+    max-width: 624px;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.head03 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-left: 10px;
+}
+
+.waldinger {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-left: 10px;
+}
+
+.movingForward {
+    width: 300px;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+/* ONLINE COURSES */
+
+.Online-Courses {
+    margin-top: 3rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.main-heading {
+    font-size: 56px;
+    line-height: 67.2px;
+    letter-spacing: -0.1px;
+    text-align: center; 
+    margin-top: 3rem;
+}
+
+.main-course {
+    width: 100%;
+    max-width: 399px;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #e3e5e5;
+}
+
+.course-info {
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1rem;
+}
+
+.course-img {
+    width: 100%;
+    max-width: 399px;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    transition: text-decoration 0.5s ease;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.couese-available {
+    margin-top: 7rem;
+    gap: 20px;
+    align-items: center;
+}
+
+.sign {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #0ddb91;
+}
+
+.couese-available-new {
+    margin-top: 5.2rem;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.course-img:hover {
+    transform: scale(1.05);
+}
+
+:hover.main-course .title {
+    text-decoration: underline;
+}
+
+
+/* MENTAL HEALTH SECTION */
+
+.mental-health {
+    padding: 6rem 2rem;
+  }
+  
+  .mental-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 4rem;
+  }
+  
+  /* Left Part Styling */
+  .mental-intro {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .mental-text {
+    padding-right: 2rem;
+  }
+  
+  .mental-intro h2 {
+    font-family: "Canela Deck Web", serif;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+  }
+  
+  .mental-intro p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .underline-link {
+    color: #1e1e1e;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+  
+  .learn-more {
+    color: #1e1e1e;
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+  
+    transition: background-color 0.3s;
+  }
+  
+  .mental-image {
+    width: 100%;
+  }
+  
+  .mental-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Right Part Styling */
+  .mindfulness-steps {
+    flex: 1;
+    padding-left: 2rem;
+  }
+
+  .mindfulness-steps p {
+    font-weight: bolder;
+    font-size: large
+  }
+  
+  .mindfulness-steps h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+  
+  .step {
+    margin-bottom: 2rem;
+  }
+  
+  .step h4 {
+    font-family: "Canela Deck Web", serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #a51c30;
+    gap: 0.5rem;
+  }
+  
+  .step-number {
+    color: #a51c30;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+
+/* BOOKS RECORED SECTION */
+
+.book-rec-section {
+    padding: 6rem 2rem;
+  }
+  
+  .book-rec-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  .book-rec-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  
+  .book-rec-header h2 {
+    font-family: "Canela Deck Web", serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+  }
+  
+  /* Top Arrow Button Style */
+  .book-rec-explore-all {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #1e1e1e;
+    text-decoration: none;
+  }
+  
+  .book-rec-arrow-icon {
+    padding: 7px;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+    background-color: #807f7f;
+  }
+  
+  .book-rec-arrow-icon:hover {
+    background-color: #2b2b2b;
+  }
+  
+  /* Cards Container */
+  .book-rec-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Individual Card Styles */
+  .book-rec-card {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 3/4;
+    max-width: 350px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .book-rec-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s, filter 0.5s;
+  }
+  
+  .book-rec-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    );
+    transition: opacity 0.3s;
+  }
+  
+  .book-rec-content {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    right: 2rem;
+  }
+  
+  .book-rec-title {
+    font-family: "Canela Deck Web", serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    color: white;
+  }
+  
+  
+  .book-rec-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+  }
+  
+  .book-rec-link span {
+    color: white;
+    opacity: 0.8;
+  }
+  
+  /* Hover Effects */
+  .book-rec-card:hover .book-rec-image {
+    transform: scale(1.05);
+    filter: brightness(0.5);
+  }
+
+
+  /* PODCAST AREA */
+
+  .pod-section {
+    padding: 6rem 2rem;
+  }
+  
+  .pod-area {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .pod-header {
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+  }
+  
+  .pod-header h2 {
+    font-family: "Canela Deck Web", serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  
+  .pod-subtitle {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .pod-list {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .pod-item {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(164, 161, 161);
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+  }
+  
+  .pod-item:hover {
+    transform: translateY(-4px);
+  }
+  
+  .pod-content {
+    flex: 1;
+    padding-right: 3rem;
+  }
+  
+  .pod-title {
+    font-family: "Canela Deck Web", serif;
+  
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .pod-source {
+    color: #a51c30;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .pod-description {
+    color: #666;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .pod-image {
+    flex: 0 0 200px;
+  }
+  
+  .pod-image img {
+    width: 80%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+
+  /* RELATED SECTION */
+
+  .related-section {
+    height: 60vh;
+    position: relative;
+    background-image: url("/Media/YogaPic.jpeg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  
+  .related-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(235, 234, 234, 0.836);
+    z-index: 1;
+  }
+  
+  .related-area {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .related-main {
+    flex: 0 0 50%;
+  }
+  
+  .related-tag {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+  }
+  
+  .related-main h2 {
+    font-family: "Canela Deck Web", serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #1e1e1e;
+    line-height: 1.2;
+  }
+  
+  .related-topics {
+    flex: 0 0 40%;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .topic-name {
+    font-size: 1.5rem;
+    color: #1e1e1e;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+  }
+
+
+  /* FOOTER */
+
+  .footer {
+    background-color: #000000;
+    color: white;
+    padding: 6rem 2rem;
+    margin-top: 4rem;
+  }
+  
+  .footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  /* Links Section */
+
+  footer {
+     background-color: black; 
+     padding: 20px;
+  }
+
+  .footer-links {
+    margin-top: 2.5rem;
+    justify-content: space-around;
+    margin-bottom: 6rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer-column h3 {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-column ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .footer-column ul li a:hover {
+    color: white;
+  }
+  
+  /* Bottom Section */
+  .footer-below {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-logo {
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  .harvard-footer-logo {
+    height: 140px;
+    width: auto;
+  }
+  
+  .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  /* Social Links */
+  .social-icons {
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .social-icons img {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  
+  .social-icons:hover img {
+    opacity: 1;
+  }
+
+  /* MEDIA QURIES */
+
+  /* Media Queries */
+@media (max-width: 1024px) {
+    .navbar {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+
+    .top-section {
+        height: 500px;
+    }
+
+    .resolutions {
+        margin-top: 5rem;
+    }
+
+    .reso {
+        font-size: 2.5rem;
+    }
+
+    .reso-text {
+        font-size: 0.9rem;
+        max-width: 450px;
+    }
+
+    .beforeYouChoose {
+        flex-direction: column;
+    }
+
+    .robert-area {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Online-Courses {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-section {
+        height: 400px;
+    }
+
+    .resolutions {
+        margin-top: 3rem;
+    }
+
+    .reso {
+        font-size: 2rem;
+    }
+
+    .beforeYouChoose {
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .food-img {
+        max-width: 100%;
+    }
+
+    .Online-Courses {
+        gap: 1rem;
+    }
+
+    .main-course {
+        width: 100%;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .top-section {
+        height: 300px;
+    }
+
+    .resolutions {
+        margin-top: 2rem;
+    }
+
+    .reso {
+        font-size: 1.5rem;
+    }
+
+    .Online-Courses {
+        flex-direction: column;
+    }
+
+    .main-course {
+        width: 100%;
+    }
+}
